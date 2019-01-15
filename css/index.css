@@ -336,25 +336,44 @@ footer {
 
     .cta {
         margin-right: 7px;
-        margin-top: 12px;
+        margin-top: 4px;
     }
 
     .main-content {
-        flex-direction: column;
+        
         width: 450px;
     }
 
      .main-content .middle-img {
-         margin-left: 30px;
-        width: 450px;
+         margin-bottom: 0;
+         margin-top: 27px;
+         margin-left: 21px;
+         width: 458px;
     }
 
-    .middle-content .top-content {
+    .main-content .top-content {
+        justify-content: space-between;
+        margin-bottom: 10px;
+        margin-top: 10px;
         flex-direction: column;
     }
 
-    .middle-content .bottom-content {
+    .top-content .text-content {
+        margin-top: 15px;
+        margin-bottom: 26px;
+    }
+
+    .main-content .bottom-content {
+        justify-content: space-between;
+        margin-bottom: 17px;
+        margin-top: 10px;
         flex-direction: column;
+    }
+
+    .bottom-content .text-content {
+        justify-content: space-between;
+        margin-top: 22px;
+        margin-bottom: 33px;
     }
 
 }
